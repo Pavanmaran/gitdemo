@@ -20,3 +20,8 @@ int myFunction(int x, int y) {
 void logFucntion(){
   Serial.println("Hello World!");
 }
+
+void wifiSetup(){
+  Serial.println("Setting up WiFi...");
+  // WiFi setup code here
+}
